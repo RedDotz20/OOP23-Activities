@@ -1,3 +1,4 @@
+// Code by Carlos Tabangay - BSCS-2B
 import java.util.Scanner;
 public class Math_operations {
     public static void operations(int firstNum, int secondNum) {
