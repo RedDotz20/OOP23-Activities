@@ -14,7 +14,13 @@ public class Convert_to_binary {
 
         // Convert Result to binary as String
         int intResult = firstInputValue + secondInputValue;
+        String fInputBinary = Integer.toBinaryString(firstInputValue);
+        String sInputBinary = Integer.toBinaryString(secondInputValue);
         String binary = Integer.toBinaryString(intResult);
-        System.out.println(intResult + " = " + binary);
+        System.out.println(
+                firstInputValue + " = " + fInputBinary  +'\n'+
+                secondInputValue + " = " + sInputBinary +'\n'+
+                intResult + " = " + binary
+        );
     }
 }
